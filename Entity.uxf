@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>140</y>
+      <x>230</x>
+      <y>340</y>
       <w>220</w>
       <h>120</h>
     </coordinates>
@@ -15,7 +15,7 @@ Game
 - id:long
 - name:string
 - desc:string
-- List&lt;GameVersion&gt;:versions
+- versions:List&lt;GameVersion&gt;
 --
 </panel_attributes>
     <additional_attributes/>
@@ -23,10 +23,10 @@ Game
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>370</y>
+      <x>230</x>
+      <y>570</y>
       <w>220</w>
-      <h>110</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 GameVersion
@@ -34,6 +34,7 @@ GameVersion
 - id:long
 - fileData:byte[]
 - version:string
+- date:Date
 --
 </panel_attributes>
     <additional_attributes/>
@@ -41,8 +42,8 @@ GameVersion
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
-      <y>140</y>
+      <x>920</x>
+      <y>330</y>
       <w>210</w>
       <h>130</h>
     </coordinates>
@@ -60,8 +61,8 @@ Account
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
-      <y>370</y>
+      <x>920</x>
+      <y>560</y>
       <w>210</w>
       <h>130</h>
     </coordinates>
@@ -78,8 +79,8 @@ Role
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1130</x>
-      <y>370</y>
+      <x>560</x>
+      <y>560</y>
       <w>210</w>
       <h>130</h>
     </coordinates>
@@ -96,8 +97,8 @@ ADMIN
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>960</x>
-      <y>260</y>
+      <x>1010</x>
+      <y>450</y>
       <w>50</w>
       <h>130</h>
     </coordinates>
@@ -109,8 +110,8 @@ m2=0..n</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>650</x>
-      <y>250</y>
+      <x>330</x>
+      <y>450</y>
       <w>50</w>
       <h>140</h>
     </coordinates>
@@ -118,5 +119,50 @@ m2=0..n</panel_attributes>
 m1=1
 m2=1..n</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>340</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>GameKey
+--
+- id:long
+- transactionId:long
+- game:Game
+- account:Account
+- date:Date
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>390</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>390</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
   </element>
 </diagram>
