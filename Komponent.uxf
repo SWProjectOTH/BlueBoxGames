@@ -4,9 +4,9 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>539</x>
-      <y>1023</y>
-      <w>649</w>
+      <x>506</x>
+      <y>1034</y>
+      <w>1034</w>
       <h>154</h>
     </coordinates>
     <panel_attributes>Persistence</panel_attributes>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>539</x>
-      <y>308</y>
+      <x>506</x>
+      <y>319</y>
       <w>1034</w>
       <h>176</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>539</x>
-      <y>517</y>
+      <x>506</x>
+      <y>528</y>
       <w>1034</w>
       <h>440</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>792</x>
-      <y>352</y>
+      <x>924</x>
+      <y>363</y>
       <w>220</w>
       <h>66</h>
     </coordinates>
@@ -49,22 +49,24 @@ Webapp</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>638</x>
-      <y>759</y>
-      <w>220</w>
-      <h>99</h>
+      <x>605</x>
+      <y>715</y>
+      <w>308</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>symbol=component
 Game Service
 -
+Used to buy/return games. Can be used by external soucrce to generate Game Keys.
+style=wordwrap
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>891</x>
-      <y>1067</y>
+      <x>1034</x>
+      <y>1078</y>
       <w>33</w>
       <h>55</h>
     </coordinates>
@@ -74,8 +76,8 @@ Game Service
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>792</x>
-      <y>1100</y>
+      <x>935</x>
+      <y>1111</y>
       <w>220</w>
       <h>66</h>
     </coordinates>
@@ -86,8 +88,8 @@ Persistence Unit</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>726</x>
-      <y>847</y>
+      <x>693</x>
+      <y>858</y>
       <w>55</w>
       <h>88</h>
     </coordinates>
@@ -97,8 +99,8 @@ Persistence Unit</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>407</y>
+      <x>1012</x>
+      <y>418</y>
       <w>55</w>
       <h>55</h>
     </coordinates>
@@ -108,21 +110,24 @@ Persistence Unit</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1012</x>
-      <y>759</y>
-      <w>209</w>
-      <h>99</h>
+      <x>957</x>
+      <y>715</y>
+      <w>231</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>symbol=component
 User Management 
-Service</panel_attributes>
+Service
+-
+Used by Customers and Game Resellers to manage/create their Accounts. Admins can manage all Accounts.
+style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>847</y>
+      <x>1023</x>
+      <y>858</y>
       <w>55</w>
       <h>99</h>
     </coordinates>
@@ -132,66 +137,66 @@ Service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>737</x>
-      <y>693</y>
+      <x>704</x>
+      <y>671</y>
       <w>33</w>
-      <h>88</h>
+      <h>66</h>
     </coordinates>
     <panel_attributes>lt=()-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>693</y>
+      <x>1023</x>
+      <y>660</y>
       <w>33</w>
-      <h>88</h>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=()-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>737</x>
-      <y>462</y>
-      <w>187</w>
-      <h>253</h>
+      <x>704</x>
+      <y>473</y>
+      <w>352</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 m2=</panel_attributes>
-    <additional_attributes>10.0;210.0;10.0;10.0;150.0;10.0</additional_attributes>
+    <additional_attributes>10.0;180.0;10.0;10.0;300.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>891</x>
-      <y>429</y>
-      <w>198</w>
-      <h>286</h>
+      <x>1023</x>
+      <y>451</y>
+      <w>33</w>
+      <h>231</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 m2=</panel_attributes>
-    <additional_attributes>160.0;240.0;160.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;190.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>737</x>
-      <y>902</y>
-      <w>187</w>
+      <x>704</x>
+      <y>913</y>
+      <w>363</w>
       <h>121</h>
     </coordinates>
     <panel_attributes>lt=.
 m2=</panel_attributes>
-    <additional_attributes>150.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
+    <additional_attributes>310.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1067</x>
-      <y>913</y>
+      <x>1034</x>
+      <y>924</y>
       <w>33</w>
       <h>110</h>
     </coordinates>
@@ -202,8 +207,8 @@ m2=</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>396</x>
-      <y>726</y>
+      <x>363</x>
+      <y>737</y>
       <w>88</w>
       <h>44</h>
     </coordinates>
@@ -214,8 +219,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>143</x>
-      <y>561</y>
+      <x>110</x>
+      <y>572</y>
       <w>220</w>
       <h>88</h>
     </coordinates>
@@ -226,8 +231,8 @@ GameService</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>143</x>
-      <y>847</y>
+      <x>110</x>
+      <y>858</y>
       <w>220</w>
       <h>88</h>
     </coordinates>
@@ -239,8 +244,8 @@ PaymentService
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>814</y>
+      <x>363</x>
+      <y>825</y>
       <w>209</w>
       <h>88</h>
     </coordinates>
@@ -251,8 +256,8 @@ m2=</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>583</x>
-      <y>803</y>
+      <x>550</x>
+      <y>814</y>
       <w>77</w>
       <h>55</h>
     </coordinates>
@@ -262,8 +267,8 @@ m2=</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>352</x>
-      <y>880</y>
+      <x>319</x>
+      <y>891</y>
       <w>77</w>
       <h>33</h>
     </coordinates>
@@ -273,8 +278,8 @@ m2=</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>352</x>
-      <y>583</y>
+      <x>319</x>
+      <y>594</y>
       <w>99</w>
       <h>55</h>
     </coordinates>
@@ -284,8 +289,8 @@ m2=</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>429</x>
-      <y>594</y>
+      <x>396</x>
+      <y>605</y>
       <w>165</w>
       <h>209</h>
     </coordinates>
@@ -296,8 +301,8 @@ m2=</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>913</x>
-      <y>1067</y>
+      <x>1056</x>
+      <y>1078</y>
       <w>132</w>
       <h>55</h>
     </coordinates>
@@ -308,8 +313,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>77</x>
-      <y>1056</y>
+      <x>803</x>
+      <y>1287</y>
       <w>363</w>
       <h>165</h>
     </coordinates>
@@ -325,8 +330,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>1254</y>
+      <x>726</x>
+      <y>1485</y>
       <w>231</w>
       <h>132</h>
     </coordinates>
@@ -342,8 +347,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>1408</y>
+      <x>726</x>
+      <y>1639</y>
       <w>231</w>
       <h>99</h>
     </coordinates>
@@ -358,8 +363,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>275</x>
-      <y>1254</y>
+      <x>1001</x>
+      <y>1485</y>
       <w>231</w>
       <h>132</h>
     </coordinates>
@@ -374,8 +379,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>275</x>
-      <y>1408</y>
+      <x>1001</x>
+      <y>1639</y>
       <w>231</w>
       <h>66</h>
     </coordinates>
@@ -388,8 +393,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>748</x>
-      <y>715</y>
+      <x>726</x>
+      <y>682</y>
       <w>143</w>
       <h>33</h>
     </coordinates>
@@ -400,8 +405,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>506</x>
-      <y>253</y>
+      <x>473</x>
+      <y>264</y>
       <w>1089</w>
       <h>946</h>
     </coordinates>
@@ -411,8 +416,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>121</x>
-      <y>814</y>
+      <x>88</x>
+      <y>825</y>
       <w>264</w>
       <h>132</h>
     </coordinates>
@@ -422,10 +427,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>121</x>
-      <y>407</y>
+      <x>88</x>
+      <y>517</y>
       <w>264</w>
-      <h>396</h>
+      <h>297</h>
     </coordinates>
     <panel_attributes>Black Castle</panel_attributes>
     <additional_attributes/>
@@ -433,21 +438,24 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>1331</x>
-      <y>759</y>
+      <x>1298</x>
+      <y>770</y>
       <w>220</w>
       <h>99</h>
     </coordinates>
     <panel_attributes>symbol=component
 Game Management 
-Service</panel_attributes>
+Service
+-
+Used by admins to modify and update the games offered by bluebyte games
+style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1441</x>
-      <y>704</y>
+      <x>1408</x>
+      <y>715</y>
       <w>33</w>
       <h>77</h>
     </coordinates>
@@ -457,8 +465,8 @@ Service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1430</x>
-      <y>847</y>
+      <x>1397</x>
+      <y>858</y>
       <w>55</w>
       <h>88</h>
     </coordinates>
@@ -468,20 +476,20 @@ Service</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>891</x>
-      <y>902</y>
-      <w>583</w>
+      <x>1034</x>
+      <y>913</y>
+      <w>407</w>
       <h>187</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
 m2=</panel_attributes>
-    <additional_attributes>10.0;150.0;10.0;90.0;510.0;90.0;510.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;10.0;90.0;350.0;90.0;350.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1056</x>
-      <y>462</y>
+      <x>1023</x>
+      <y>473</y>
       <w>418</w>
       <h>264</h>
     </coordinates>
@@ -492,8 +500,8 @@ m2=</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1067</x>
-      <y>715</y>
+      <x>1034</x>
+      <y>682</y>
       <w>143</w>
       <h>33</h>
     </coordinates>
@@ -504,8 +512,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>583</x>
-      <y>770</y>
+      <x>550</x>
+      <y>781</y>
       <w>77</w>
       <h>33</h>
     </coordinates>
@@ -515,8 +523,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>550</x>
-      <y>737</y>
+      <x>517</x>
+      <y>748</y>
       <w>132</w>
       <h>55</h>
     </coordinates>
@@ -527,8 +535,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>1254</x>
-      <y>715</y>
+      <x>1221</x>
+      <y>737</y>
       <w>220</w>
       <h>33</h>
     </coordinates>
@@ -539,8 +547,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>143</x>
-      <y>671</y>
+      <x>110</x>
+      <y>682</y>
       <w>220</w>
       <h>88</h>
     </coordinates>
@@ -551,8 +559,8 @@ MaintainanceService</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>352</x>
-      <y>704</y>
+      <x>319</x>
+      <y>715</y>
       <w>99</w>
       <h>33</h>
     </coordinates>
@@ -562,8 +570,8 @@ MaintainanceService</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>429</x>
-      <y>605</y>
+      <x>396</x>
+      <y>616</y>
       <w>1100</w>
       <h>132</h>
     </coordinates>
@@ -574,8 +582,8 @@ m2=</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1485</x>
-      <y>693</y>
+      <x>1452</x>
+      <y>704</y>
       <w>55</w>
       <h>88</h>
     </coordinates>
@@ -585,8 +593,8 @@ m2=</panel_attributes>
   <element>
     <id>Text</id>
     <coordinates>
-      <x>418</x>
-      <y>924</y>
+      <x>385</x>
+      <y>935</y>
       <w>132</w>
       <h>88</h>
     </coordinates>
@@ -597,8 +605,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>506</x>
-      <y>154</y>
+      <x>473</x>
+      <y>165</y>
       <w>308</w>
       <h>88</h>
     </coordinates>
