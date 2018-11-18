@@ -165,4 +165,19 @@ m1=0..n
 m2=1</panel_attributes>
     <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>180</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Blue Box Games
+Entity Diagram
+Michel Mögn - 3015801
+18.11.2018
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

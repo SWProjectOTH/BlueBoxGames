@@ -4,30 +4,32 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>200</y>
+      <x>490</x>
+      <y>350</y>
       <w>480</w>
       <h>440</h>
     </coordinates>
-    <panel_attributes/>
+    <panel_attributes>bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>560</x>
-      <y>370</y>
+      <x>570</x>
+      <y>520</y>
       <w>160</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Manage Own Account</panel_attributes>
+    <panel_attributes>Manage Own Account
+layer=2
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>320</x>
-      <y>370</y>
+      <x>330</x>
+      <y>520</y>
       <w>120</w>
       <h>110</h>
     </coordinates>
@@ -37,8 +39,8 @@
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>350</x>
-      <y>490</y>
+      <x>360</x>
+      <y>640</y>
       <w>60</w>
       <h>110</h>
     </coordinates>
@@ -48,8 +50,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>980</x>
-      <y>370</y>
+      <x>990</x>
+      <y>520</y>
       <w>120</w>
       <h>100</h>
     </coordinates>
@@ -61,8 +63,8 @@ halign=center</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>340</x>
-      <y>250</y>
+      <x>350</x>
+      <y>400</y>
       <w>80</w>
       <h>110</h>
     </coordinates>
@@ -72,8 +74,8 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>280</y>
+      <x>410</x>
+      <y>430</y>
       <w>180</w>
       <h>140</h>
     </coordinates>
@@ -83,8 +85,8 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>490</y>
+      <x>410</x>
+      <y>640</y>
       <w>180</w>
       <h>70</h>
     </coordinates>
@@ -94,8 +96,8 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>380</y>
+      <x>410</x>
+      <y>530</y>
       <w>180</w>
       <h>40</h>
     </coordinates>
@@ -105,30 +107,34 @@ halign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>560</x>
-      <y>210</y>
+      <x>570</x>
+      <y>360</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>Buy Game</panel_attributes>
+    <panel_attributes>Buy Game
+layer=2
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>560</x>
-      <y>290</y>
+      <x>570</x>
+      <y>440</y>
       <w>160</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>Download Game</panel_attributes>
+    <panel_attributes>Download Game
+layer=2
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>280</y>
+      <x>410</x>
+      <y>430</y>
       <w>180</w>
       <h>60</h>
     </coordinates>
@@ -138,8 +144,8 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>230</y>
+      <x>410</x>
+      <y>380</y>
       <w>180</w>
       <h>80</h>
     </coordinates>
@@ -149,30 +155,34 @@ halign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>740</x>
-      <y>320</y>
+      <x>750</x>
+      <y>470</y>
       <w>160</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Generate Game Key</panel_attributes>
+    <panel_attributes>Generate Game Key
+layer=2
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>740</x>
-      <y>430</y>
+      <x>750</x>
+      <y>580</y>
       <w>160</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Return Game Key</panel_attributes>
+    <panel_attributes>Return Game Key
+layer=2
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>890</x>
-      <y>350</y>
+      <x>900</x>
+      <y>500</y>
       <w>110</w>
       <h>90</h>
     </coordinates>
@@ -182,8 +192,8 @@ halign=center</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>890</x>
-      <y>410</y>
+      <x>900</x>
+      <y>560</y>
       <w>110</w>
       <h>80</h>
     </coordinates>
@@ -193,19 +203,21 @@ halign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>560</x>
-      <y>550</y>
+      <x>570</x>
+      <y>700</y>
       <w>160</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Manage Games</panel_attributes>
+    <panel_attributes>Manage Games
+layer=2
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>400</x>
-      <y>530</y>
+      <x>410</x>
+      <y>680</y>
       <w>180</w>
       <h>80</h>
     </coordinates>
@@ -215,12 +227,29 @@ halign=center</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>560</x>
-      <y>460</y>
+      <x>570</x>
+      <y>610</y>
       <w>160</w>
       <h>80</h>
     </coordinates>
-    <panel_attributes>Manage Accounts</panel_attributes>
+    <panel_attributes>Manage Accounts
+layer=2
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>240</y>
+      <w>280</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Blue Box Games
+Use Case Diagram
+Michel Mögn - 3015801
+18.11.2018
+style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
