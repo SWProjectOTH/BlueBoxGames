@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>140</y>
+      <w>220</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Game
+--
+- id:long
+- name:string
+- desc:string
+- List&lt;GameVersion&gt;:versions
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>370</y>
+      <w>220</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+GameVersion
+--
+- id:long
+- fileData:byte[]
+- version:string
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>140</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Account
+--
+- id:long
+- name:string
+- password:string
+- List&lt;Role&gt;:roles
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>370</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Role
+--
+- id:long
+- roleType:RoleType
+- account:Account
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1130</x>
+      <y>370</y>
+      <w>210</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enum&gt;&gt;
+RoleType
+--
+CUSTOMER
+RESELLER
+ADMIN
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>260</y>
+      <w>50</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>250</y>
+      <w>50</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+</diagram>
